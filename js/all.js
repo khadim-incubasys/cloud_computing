@@ -6,7 +6,7 @@ $(document).ready(function() {
 		$(".result").html('<img style="margin-top: 21%; margin-left: 30%" src="css/loader.gif">');
 		$.ajax({
 			type: "POST",
-			url:  "http://localhost/dev/cloud_computing/server.php",
+			url:  "http://localhost/cloud_computing/server.php",
 			data: {co_a: $("#co_a").val().trim(),co_b: $("#co_b").val().trim(),co_c: $("#co_c").val().trim()},
 			dataType: "text",
 			cache: false,
